@@ -1,0 +1,66 @@
+{
+  "name": "Reactjs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@david.kucsai/react-pdf-table": "^0.4.1",
+    "@react-pdf/renderer": "^3.4.4",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.8",
+    "bootstrap": "^5.3.3",
+    "draft-js": "^0.11.7",
+    "easyinvoice": "^3.0.47",
+    "formik": "^2.4.5",
+    "gsap": "^3.12.5",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "lottie-web": "^5.12.2",
+    "react": "^18.2.0",
+    "react-animations": "^1.0.0",
+    "react-bootstrap": "^2.10.2",
+    "react-dom": "^18.2.0",
+    "react-draft-wysiwyg": "^1.15.0",
+    "react-icons": "^5.0.1",
+    "react-image-magnifiers": "^1.4.0",
+    "react-image-magnify": "^2.7.4",
+    "react-img-zoom-afork": "^0.1.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-scroll-trigger": "^0.6.14",
+    "react-simple-star-rating": "^5.1.7",
+    "react-stars": "^2.2.5",
+    "react-to-pdf": "^1.0.1",
+    "react-to-print": "^2.15.1",
+    "react-transition-group": "^4.4.5",
+    "styled-components": "^6.1.8",
+    "vue-awesome-image-gallery": "^1.0.12",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

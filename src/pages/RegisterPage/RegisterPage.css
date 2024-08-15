@@ -1,0 +1,18 @@
+.main-register{
+    padding-top: 130px;
+}
+.btn-register{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 40px;
+    color: #ffffff;
+    border: none;
+    background-color: #3BB77E;
+    border: 1px solid #29A56C;
+    border-radius: 10px;
+    margin-top: 50px !important;
+}
+.main-register .heading_s1
+{
+    margin-bottom:22px;
+}

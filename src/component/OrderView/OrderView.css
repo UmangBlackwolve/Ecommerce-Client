@@ -1,0 +1,151 @@
+    .Orderviwe{
+    padding-left:26px;
+}
+.order-viwebox img{
+    width: 100%;
+}
+.order-viwebox {
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.form-control:focus {
+border-color: #dee2e6 !important;
+box-shadow: none !important;
+}
+.qty-box{
+    margin-bottom: 8px ;
+
+}
+.qty-val
+{
+    font-size: 17px;
+}
+.Orderviwe .text-brand
+{
+    font-size: 17px;
+}
+/* .order-img{
+    padding-left: 46px !important;
+    padding-bottom: 24px !important;
+    padding-top: 24px !important;
+} */
+
+.pdf-table tr td{
+    font-size: 15px !important;
+}
+@media (max-width:1201px) {
+    .Orderviwe th{
+        font-size: 13px !important;
+    }
+    .qty-box{
+        margin-bottom: 0px ;
+    }
+    .view-status h5 {
+        font-size:15px;
+        margin:0 ;
+    }
+    .Orderviwe .product-name {
+        font-size: 14px;
+        margin-bottom: 10px !important;
+    }
+    .Orderviwe .text-brand
+    {
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+    .Orderviwe .product-thumbnail img {
+        max-width: 97px !important;
+        border: 1px solid #ececec;
+        border-radius: 15px;
+        margin-left: 11px;
+        margin-right: 10px;
+    }
+    .comments button{
+        font-size: 13px !important;
+    }
+    .thanks-order
+    {
+        margin: 10px 0px;
+    }
+}
+@media (max-width:993px) {
+    .Orderviwe {
+        padding: 0px;
+    }
+}
+@media (max-width:768px) {
+    .Orderviwe th {
+        font-size: 11px !important;
+    }
+    .comments button {
+        font-size: 10px !important;
+    }
+    .Orderviwe .star svg {
+        font-size: 17px !important;
+    }
+    .view-status h5 {
+        font-size: 12px;
+    }
+    .Orderviwe .product-name {
+        margin: 0 !important ;
+    }
+
+    .Orderviwe .product-thumbnail img {
+        max-width: 78px !important;
+    }
+        .Orderviwe H6{
+            margin: 0 ;
+            margin-left: 5PX !important;
+        }
+    
+}
+@media (max-width:578px) {
+    .view-status h5{
+        text-align: right;
+        margin-right: 10px;
+    }
+    
+    .Orderviwe .text-brand {
+        text-align: right   ;
+        margin-right: 10px;
+
+    }
+    .total-row{
+        display: flex !important;
+        justify-content: space-between !important;
+    }
+    .total-row td{
+        padding:10px !important;
+    }
+    .thanks-order
+    {
+        font-size: 17px;
+        margin-left: 32px;
+    }
+    .comments
+    {
+        margin-right: 10px;
+    }
+    .Orderviwe .qty-val
+    {
+        text-align: right !important;
+        margin-right: 10px;
+    }
+    .order-viwebox
+    {
+        padding: 0px 40px;
+        border: 0px  solid transparent !important;
+    }
+    .Orderviwe .product-thumbnail img {
+        max-width: 97px !important;
+    }
+    
+
+}
+@media (max-width:500px) {
+    .Orderviwe{
+        padding: 0px
+      }
+  }
+  

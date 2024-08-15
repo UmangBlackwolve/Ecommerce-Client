@@ -1,0 +1,27 @@
+.AccountTab
+{
+    padding-top:150px;
+}
+.AccountTab .nav-grop a{
+    font-size: 16px;
+    color: #7E7E7E;
+    padding: 15px 30px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex !important;
+    align-items: center !important;
+}
+.AccountTab .active{
+    background-color:#3BB77E !important;
+    color:#fff !important;
+}
+.AccountTab svg{
+    font-size: 24px !important;
+}
+.AccountTab a p{
+    margin-left:10px !important ;
+    margin-top: 3px !important;
+}

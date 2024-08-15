@@ -1,0 +1,12 @@
+.order-component{
+padding-left:26px;
+}
+.order-table{
+margin-top: 40px;
+}
+@media (max-width:768px) {
+    
+    .order-component td{
+        font-size: 12px;
+    }
+}

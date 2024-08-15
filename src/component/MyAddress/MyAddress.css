@@ -1,0 +1,85 @@
+.MyAddress{
+    padding-left: 26px;
+}
+.address-box{
+    display: flex;
+    /* flex-direction: column; */
+    height: 125px;
+    text-overflow: ellipsis;
+    align-items: center;
+
+}
+.main-addbox{
+    border: 1px solid #ececec;
+padding: 18px 24px;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05)
+}
+
+.add-address
+{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ececec;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05)
+}
+.address-modal
+{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    height: 93vh !important;
+}
+.add-address{
+    position: relative;
+}
+/* .add-address::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: red !important;
+    
+}
+.add-address:hover::before {
+    background-color: #ececec;
+} */
+.address-form
+{
+    padding:0px 40px
+}
+.address-form select {
+    border: 1px solid #ececec !important;
+    height: 64px !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-left: 20px !important;
+    font-size: 16px !important;
+    width: 100%;
+
+    border-radius: 10px
+
+}
+.btn-address{
+    margin-top: 20px ;
+    background-color:#3bb77e;
+    color: white;    
+}
+.btn-close
+{
+    margin-right: 10px !important;
+}
+.error
+{
+    color: red !important;
+}
+.action svg{
+    margin: 0px 15px;
+}

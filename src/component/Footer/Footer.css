@@ -1,0 +1,96 @@
+.main-footer p{
+    font-size: 17px;
+    color: #253D4E;
+}
+.contact-infor svg{
+    font-size: 14px;
+}
+ul{
+    margin: 0px !important;
+    padding: 0px;
+}
+
+.footer-list li {
+    display: block;
+    margin: 0 0 13px;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+.footer-list li a {
+    font-size: 15px !important;
+    color: #253D4E !important;
+    display: block;
+}
+.footer-link-widget:not(:last-child) {
+    margin-right: 16px !important;
+}
+.contact-infor {
+    font-size: 15px;
+    color: #253D4E;
+}
+.contact-infor li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.widget-about {
+    min-width: 300px !important;
+    font-size: 15px;
+}
+.widget-install-app {
+    min-width: 310px !important;
+}
+.footer-list {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    min-width: 170px;
+}
+.download-app a img {
+    max-width: 128px !important;
+}
+.widget-install-app {
+    min-width: 310px !important;
+}
+.download-app {
+ 
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px 0 33px;
+}
+.download-app a {
+    display: block;
+    margin-right: 12px;
+}
+.contact-infor li svg {
+    margin-right: 8px;
+    font-size: 16px;
+    color: #3bb77e;
+
+}
+.footer-mid .widget-title {
+    margin: 15px 0 20px 0;
+}
+@media (max-width:1500px) {
+    .footer-link-widget:not(:last-child) {
+        margin-right: 50px !important;
+    }
+    
+}
+@media (max-width:1000px) {
+    .widget-install-app {
+        min-width: 355px !important;
+    }
+}
+@media (max-width:768px) {
+    .widget-about {
+        min-width: 205px !important;
+    }
+    .widget-install-app {
+        min-width: 265px !important;
+    }
+}
+@media (max-width:650px) {
+    .main-footer p {
+        font-size: 14px;
+        color: #253D4E;
+    }
+}

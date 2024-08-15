@@ -1,0 +1,107 @@
+.view-page .zoom-img img{
+
+}
+.zoom-img
+{
+    width: 100% !important;
+}
+.product-image-view {
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #ececec;
+    overflow: hidden;
+}   
+.detail-info .product-price-cover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.current-price {
+    font-size: 58px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.view-info
+{
+    padding:30px !important;
+}
+.view-p{
+    font-size: 16px !important;
+}
+.icon-flex
+{
+    display:flex ;
+    flex-wrap: wrap !important;
+}
+.icons-view
+{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #f1f1f1 !important;
+    color: #333;
+    border-radius: 5px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    line-height: 55px;
+    position: relative;
+    text-align: center;
+    width: 50px;
+    margin: 0 8px;
+}
+.icons-view svg{
+    font-size: 22px;
+    opacity: 0.6;
+    color: #333 !important;
+    
+}
+.single-comment {
+    margin: 0 0 15px 0;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+    padding: 20px;
+    -webkit-transition: 0.2s;
+    transition: 0.2s}
+.btn-view{
+    position: relative;
+    padding: 0px 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #3BB77E !important;
+    line-height: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: "Quicksand", sans-serif;
+}
+.review-img{
+    margin: 0px 15px ;
+}
+.review-img img{
+    width: 55px ;
+}
+.reviews .box-review:nth-child(2) {
+    /* Your CSS styles here */
+    margin-top: 0px !important;
+  }
+  .reviews h6{
+    margin: 30px 9px;
+    font-size: 20px;
+  }
+.stock-status {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1;
+}
+.box-review{
+margin-top: 40px !important ;
+}
+.stock-status.out-stock {
+    color: #f74b81;
+    background: #fde0e9;
+}
